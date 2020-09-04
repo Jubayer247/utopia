@@ -10,4 +10,8 @@
     <color name="colorPrimary">#F4A950</color>
     <color name="colorPrimaryVariant">#FF8A00</color>
     <color name="colorOnPrimary">@color/white</color>
+    <color name="edit_text_back">#F5F6F7</color>
+    <color name="shadow">#292929</color>
+    <color name="text_color_dark">#212020</color>
+    <color name="text_color_hint">#B5AAA3</color>
 </resources>
