@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:visibility="visible"
-    tools:context=".ui.login.LoginActivity"
+    tools:context=".LoginActivity"
     tools:visibility="visible">
 
     <LinearLayout
@@ -131,7 +131,10 @@
             android:layout_marginTop="64dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="64dp"
-            android:theme="@style/Theme.Utopia.progressbar"
+            android:background="@color/colorPrimaryVariant"
+            android:backgroundTint="@color/colorPrimaryVariant"
+            android:progressBackgroundTint="@color/colorPrimaryVariant"
+
             android:visibility="gone" />
     </LinearLayout>
 

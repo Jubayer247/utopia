@@ -16,7 +16,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Utopia.NoActionBar" />
-        <activity android:name=".ui.login.LoginActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
