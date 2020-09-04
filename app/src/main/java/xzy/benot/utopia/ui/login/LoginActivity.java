@@ -5,12 +5,14 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -22,6 +24,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import xzy.benot.utopia.MainActivity2;
 import xzy.benot.utopia.R;
 import xzy.benot.utopia.ui.login.LoginViewModel;
 import xzy.benot.utopia.ui.login.LoginViewModelFactory;
@@ -37,8 +40,8 @@ public class LoginActivity extends AppCompatActivity {
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
-        final EditText usernameEditText = findViewById(R.id.username);
-        final EditText passwordEditText = findViewById(R.id.password);
+        final EditText usernameEditText = findViewById(R.id.username_field);
+        final EditText passwordEditText = findViewById(R.id.password_field);
         final Button loginButton = findViewById(R.id.btn_login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
 
@@ -113,8 +116,21 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
-                        passwordEditText.getText().toString());
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        loadingProgressBar.setVisibility(View.GONE);
+                        String username=usernameEditText.getText().toString().trim();
+                        String password = passwordEditText.getText().toString().trim();
+                        if(username.contains("User")&& password.contains("123456")){
+                            Intent i1 = new Intent(LoginActivity.this,MainActivity2.class);
+                            startActivity(i1);
+                        }
+
+                    }
+                }, 2000);
+//                loginViewModel.login(usernameEditText.getText().toString(),
+//                        passwordEditText.getText().toString());
             }
         });
     }

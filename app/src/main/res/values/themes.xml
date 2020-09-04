@@ -14,6 +14,7 @@
         <!-- Customize your theme here. -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/white</item>
     </style>
 
     <style name="Theme.Utopia.NoActionBar">
@@ -24,4 +25,7 @@
     <style name="Theme.Utopia.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Utopia.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Utopia.progressbar">
+        <item name="colorAccent">@color/colorPrimaryVariant</item>
+    </style>
 </resources>
