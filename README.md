@@ -13,18 +13,30 @@ Teachnical Details:
 This project uses latest Matrial library to build ui components alongside with AndroidX.
 
 Backend services are decided to be implemented in 
-    => Firebase 
+
+    => Firebase
+    
     => VM instance with google compute engine
- Which uses the following dependencies 
-    => Firebase core 
+    
+ Which uses the following dependencies
+ 
+    => Firebase core
+    
     => Firebase Auth
-    => Firebase Realtime Database 
-    => Firestore 
+    
+    => Firebase Realtime Database
+    
+    => Firestore
+    
     => Volley to calling backend API
-    => Google Geocoding API to get address from location 
+    
+    => Google Geocoding API to get address from location
     
     
-For implementing Organisation dashboard through web application proposed languages like 
-    HTML, CSS and Framworks are VUE.js and Node js 
+    
+For implementing Organisation dashboard through web application proposed languages like
+
+    HTML, CSS and Framworks are VUE.js and Node js
+    
     
    
