@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home_bottom"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_black_18dp"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_chat_bottom"
+        android:enabled="true"
+        android:icon="@drawable/baseline_forum_black_18dp"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/nav_emergency_bottom"
+        android:enabled="true"
+        android:icon="@drawable/baseline_warning_black_18dp"
+        android:title="Emergency"/>
+    <item
+        android:id="@+id/nav_Sort_bottom"
+        android:enabled="true"
+        android:icon="@drawable/baseline_filter_alt_black_36dp"
+        android:title="Sort"/>
+</menu>
