@@ -13,7 +13,7 @@ Teachnical Details:
 Targeted Platforms: Smartphone Applications (Android/IOS) , Web Applications
 
 
-This project uses latest Matrial library to build ui components alongside with AndroidX.
+This project uses latest material library to build UI components alongside with AndroidX.
 
 Backend services are decided to be implemented in 
 
@@ -39,7 +39,7 @@ Backend services are decided to be implemented in
     
 For implementing Organisation dashboard through web application proposed languages like
 
-    HTML, CSS and Framworks are VUE.js and Node js
+    HTML, CSS and Framworks are Vue.js and Node js
     
     
    
