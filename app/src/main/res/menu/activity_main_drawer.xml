@@ -21,6 +21,6 @@
             android:title="Local Guide" />
         <item
             android:id="@+id/nav_volunteering"
-            android:title="VOLUNTEERING" />
+            android:title="Volunteering" />
     </group>
 </menu>
