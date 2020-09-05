@@ -10,6 +10,9 @@ Utopia is a cloud based platform that allows citizens to participate in their co
 
 Teachnical Details:
 
+Targeted Platforms: Smartphone Applications (Android/IOS) , Web Applications
+
+
 This project uses latest Matrial library to build ui components alongside with AndroidX.
 
 Backend services are decided to be implemented in 
